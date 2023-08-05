@@ -1,6 +1,7 @@
 import pygame
 import random
 import sys
+#Importo librerias
 
 pygame.init()
 
