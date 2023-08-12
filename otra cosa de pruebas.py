@@ -17,7 +17,7 @@ background_color = (0, 0, 0, 0)
 window = pygame.display.set_mode((width, height), pygame.FULLSCREEN)
 pygame.display.set_caption("Cube adventure")
 
-icon_image = pygame.image.load(r"Texturas/alienfachero.png")
+icon_image = pygame.image.load(r"Texturas\alien.png")
 pygame.display.set_icon(icon_image)
 
 rect_size = 100
@@ -45,7 +45,7 @@ last_time_direction_change = pygame.time.get_ticks()
 
 additional_blocks = []
 
-red_square_texture = pygame.image.load(r"Texturas/alienfachero.png").convert_alpha()
+red_square_texture = pygame.image.load(r"Texturas\alien.png").convert_alpha()
 red_square_texture = pygame.transform.scale(red_square_texture, (rect_size, rect_size))
 
 music = pygame.mixer.Sound(r"Audios\Musicaparacubocubico.mp3")
